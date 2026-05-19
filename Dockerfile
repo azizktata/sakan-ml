@@ -14,4 +14,4 @@ COPY . .
 
 RUN chmod +x start.sh
 
-CMD ["/bin/sh", "start.sh"]
+CMD ["python", "start.py"]
